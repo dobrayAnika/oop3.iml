@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         BMW_X3 car1 = new BMW_X3(180, "X3 M40d", "white");
         Car car2 = new Car(80, "2100", "gray");
+        Car car4 = new BMW_X3(300, "980", "red");
         Renault_Sandero car3 = new Renault_Sandero("Х010АМ136");
 
         car1.color();
@@ -18,6 +19,12 @@ public class Main {
         car2.color();
         car2.maxSpeed();
         car2.model();
+
+        System.out.println();
+
+        car4.color();
+        car4.model();
+        car4.maxSpeed();
 
         System.out.println();
 
